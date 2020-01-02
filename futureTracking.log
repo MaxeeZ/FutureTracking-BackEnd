@@ -448,3 +448,117 @@
 02-01-2020 13:23:07,669 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
 02-01-2020 13:23:08,355 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
 02-01-2020 13:23:12,538 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 13:23:30,390 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 13:23:30,828 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 13:23:40,780 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 13:23:42,473 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 13:23:42,602 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":1,"name":"Jeanne\u0027s timpani","category":0,"description":"","ingredients":"4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper","person":4,"duration":18,"level":1,"url":"https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"})
+02-01-2020 13:23:45,235 DEBUG (Recipe.java:70) - getName()
+02-01-2020 13:23:45,236 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 13:23:55,100 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 13:23:55,111 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":1,"name":"Jeanne\u0027s timpani","category":0,"description":"","ingredients":"4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper","person":4,"duration":18,"level":1,"url":"https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"})
+02-01-2020 13:23:55,292 DEBUG (Recipe.java:70) - getName()
+02-01-2020 13:23:55,293 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 13:24:01,658 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/2
+02-01-2020 13:24:01,668 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":2,"name":"Carpaccio of scallops with lemon caviar with lemon caviar","category":0,"description":"","ingredients":"12 large scallops, 3 lemongrass sticks, 5 cl olive oil, 1 lemon caviar, 2 chervil branches","person":4,"duration":20,"level":1,"url":"https://resize-elle.ladmedia.fr/r/618,769,force,ffffff/img/var/plain_site/storage/images/imports/repack/elle-a-table/carpaccio-de-saint-jacques-au-citron-caviar-3752811/89660275-2-fre-FR/Carpaccio-de-saint-jacques-au-citron-caviar.jpg"})
+02-01-2020 13:24:01,793 DEBUG (Recipe.java:70) - getName()
+02-01-2020 13:24:01,794 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 13:24:03,131 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/2
+02-01-2020 13:24:03,143 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":2,"name":"Carpaccio of scallops with lemon caviar with lemon caviar","category":0,"description":"","ingredients":"12 large scallops, 3 lemongrass sticks, 5 cl olive oil, 1 lemon caviar, 2 chervil branches","person":4,"duration":20,"level":1,"url":"https://resize-elle.ladmedia.fr/r/618,769,force,ffffff/img/var/plain_site/storage/images/imports/repack/elle-a-table/carpaccio-de-saint-jacques-au-citron-caviar-3752811/89660275-2-fre-FR/Carpaccio-de-saint-jacques-au-citron-caviar.jpg"})
+02-01-2020 13:24:03,443 DEBUG (Recipe.java:70) - getName()
+02-01-2020 13:24:03,444 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 13:24:07,678 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/5
+02-01-2020 13:24:07,686 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":5,"name":"Potato gratin","category":1,"description":"","ingredients":"1kg of potato, 60g grated cheese, 25cl of fresh cream, 30g butter, 1 garlic clove, pepper, salt","person":4,"duration":70,"level":1,"url":"https://assets.afcdn.com/recipe/20180123/77042_w1024h768c1cx2625cy1750cxt0cyt0cxb5250cyb3500.jpg"})
+02-01-2020 13:24:07,772 DEBUG (Recipe.java:70) - getName()
+02-01-2020 13:24:07,772 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 13:24:10,470 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/5
+02-01-2020 13:24:10,478 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":5,"name":"Potato gratin","category":1,"description":"","ingredients":"1kg of potato, 60g grated cheese, 25cl of fresh cream, 30g butter, 1 garlic clove, pepper, salt","person":4,"duration":70,"level":1,"url":"https://assets.afcdn.com/recipe/20180123/77042_w1024h768c1cx2625cy1750cxt0cyt0cxb5250cyb3500.jpg"})
+02-01-2020 13:24:10,581 DEBUG (Recipe.java:70) - getName()
+02-01-2020 13:24:10,581 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 13:39:08,232 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 13:42:01,937 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 13:54:29,832 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 13:54:30,318 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 13:57:42,151 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/3
+02-01-2020 13:57:42,306 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":3,"name":"Quiche Lorraine","category":1,"description":"","ingredients":"200g shortcrust pastry, 200g bacon, 30g butter, 3 eggs, 20cl of fresh cream, 20cl milk, nutmeg, salt, pepper","person":4,"duration":60,"level":1,"url":"https://assets.afcdn.com/recipe/20160404/37706_w1024h768c1cx1500cy1000.jpg"})
+02-01-2020 13:57:45,920 DEBUG (Recipe.java:70) - getName()
+02-01-2020 13:57:45,921 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 13:59:45,734 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/3
+02-01-2020 13:59:45,748 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":3,"name":"Quiche Lorraine","category":1,"description":"","ingredients":"200g shortcrust pastry, 200g bacon, 30g butter, 3 eggs, 20cl of fresh cream, 20cl milk, nutmeg, salt, pepper","person":4,"duration":60,"level":1,"url":"https://assets.afcdn.com/recipe/20160404/37706_w1024h768c1cx1500cy1000.jpg"})
+02-01-2020 13:59:46,109 DEBUG (Recipe.java:70) - getName()
+02-01-2020 13:59:46,109 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 14:40:21,456 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 14:40:24,524 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 14:40:25,264 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 14:43:21,191 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 14:43:21,233 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
+02-01-2020 14:45:38,054 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 14:45:38,115 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
+02-01-2020 14:45:52,379 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 14:45:52,404 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
+02-01-2020 14:50:19,609 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 14:50:19,726 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
+02-01-2020 14:54:42,799 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 14:54:42,901 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
+02-01-2020 14:57:53,417 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 14:57:53,512 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
