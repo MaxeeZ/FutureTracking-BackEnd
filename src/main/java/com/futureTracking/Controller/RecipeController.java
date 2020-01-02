@@ -73,7 +73,11 @@ public class RecipeController {
         GsonBuilder gsonBuilder = new GsonBuilder();
         Gson gson = gsonBuilder.create();
 
-        Recipe recipe = recipesIterable.get();
+         Recipe recipe = new Recipe();
+         
+        if (recipesIterable.isPresent()) {
+            recipe = recipesIterable.get();
+        }
 
         String JSONObject = gson.toJson(recipe);
 
