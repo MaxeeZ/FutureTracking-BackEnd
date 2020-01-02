@@ -63,8 +63,7 @@ public class JasperPDF {
         
         logger.debug("Appel de la méthode: downloadReport()");
         
-        File file = new File(System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
-        Path path = Paths.get(file.getAbsolutePath());
+        Path path = Paths.get(System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
         
         ByteArrayResource resource = new ByteArrayResource(Files.readAllBytes(path));
 
