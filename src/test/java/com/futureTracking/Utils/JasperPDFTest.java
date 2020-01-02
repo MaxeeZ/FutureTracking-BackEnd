@@ -6,6 +6,7 @@
 package com.futureTracking.Utils;
 
 import java.io.File;
+import java.io.IOException;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -32,7 +33,8 @@ public class JasperPDFTest {
     }
 
     @Before
-    public void setUp() {
+    public void setUp() throws IOException { 
+        File file = File.createTempFile("temp-file", ".txt", new File(System.getProperty("java.io.tmpdir")));
     }
 
     @After
@@ -43,8 +45,25 @@ public class JasperPDFTest {
      * Test of ExportPDF method, of class JasperPDF.
      */
     @Test
-    public void testExportPDF() {      
-        assertEquals(true, true);
+    public void testExportPDF() {
+        System.out.println("ExportPDF");
+        String JsonObject = "{\n"
+                + "    \"id\": 1,\n"
+                + "    \"name\": \"Jeanne\\u0027s timpani\",\n"
+                + "    \"category\": 0,\n"
+                + "    \"description\": \"\",\n"
+                + "    \"ingredients\": \"4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper\",\n"
+                + "    \"person\": 4,\n"
+                + "    \"duration\": 18,\n"
+                + "    \"level\": 1,\n"
+                + "    \"url\": \"https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg\"\n"
+                + "}";
+        JasperPDF.ExportPDF(JsonObject);
+        // TODO review the generated test code and remove the default call to fail.
+        File reportFile = new File(System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
+        boolean exists = reportFile.exists();
+        
+        assertEquals(true, exists);
     }
 
     /**
@@ -53,7 +72,11 @@ public class JasperPDFTest {
      */
     @Test
     public void testDownloadReport() throws Exception {
-        assertEquals(true, true);
+        System.out.println("downloadReport");
+        ByteArrayResource result = JasperPDF.downloadReport();
+        boolean actualResult = (result.contentLength()!= 0);
+        
+        assertEquals(true, actualResult);
     }
 
 }
