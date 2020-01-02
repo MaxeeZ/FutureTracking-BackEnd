@@ -361,3 +361,19 @@
 02-01-2020 10:04:30,230 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
 02-01-2020 10:04:32,374 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
 02-01-2020 10:04:33,370 DEBUG (Recipe.java:70) - getName()
+02-01-2020 10:52:13,175 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 10:52:15,019 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 10:52:16,144 DEBUG (Recipe.java:70) - getName()
+02-01-2020 10:52:59,851 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 10:53:27,298 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 10:53:29,208 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 10:53:29,745 DEBUG (Recipe.java:70) - getName()
+02-01-2020 10:53:31,485 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 10:53:31,647 DEBUG (Recipe.java:70) - getName()
+02-01-2020 10:53:48,040 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/3
+02-01-2020 10:53:48,204 DEBUG (Recipe.java:70) - getName()
+02-01-2020 10:53:49,301 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/3
+02-01-2020 10:53:49,548 DEBUG (Recipe.java:70) - getName()
+02-01-2020 10:54:59,456 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 10:59:44,957 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 11:01:00,777 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
