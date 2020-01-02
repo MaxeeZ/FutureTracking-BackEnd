@@ -49,7 +49,7 @@
 			<staticText>
 				<reportElement x="-20" y="0" width="595" height="79" uuid="3043d929-8596-4c12-a77f-c77dbd887387"/>
 				<textElement textAlignment="Center">
-					<font fontName="Algerian" size="16"/>
+					<font fontName="Serif" size="16"/>
 				</textElement>
 				<text><![CDATA[PDF REPORT ON RECIPE]]></text>
 			</staticText>
