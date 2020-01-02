@@ -48,6 +48,8 @@ public class JasperPDF {
                 
                 //Export and save pdf to file
                 JasperExportManager.exportReportToPdfFile(jasperPrint, System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
+                
+                File file = new File(System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
 
             } catch (JRException ex) {
                 throw new RuntimeException(ex);
@@ -63,8 +65,8 @@ public class JasperPDF {
         
         logger.debug("Appel de la méthode: downloadReport()");
         
-        File file = new File(System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
-        Path path = Paths.get(file.getAbsolutePath());
+        // File file = new File(System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
+        Path path = Paths.get(System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
         
         ByteArrayResource resource = new ByteArrayResource(Files.readAllBytes(path));
 

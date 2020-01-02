@@ -413,3 +413,32 @@
     "level": 1,
     "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
 })
+02-01-2020 12:58:06,397 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:58:07,004 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:58:19,134 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 12:58:21,943 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 12:58:21,965 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":1,"name":"Jeanne\u0027s timpani","category":0,"description":"","ingredients":"4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper","person":4,"duration":18,"level":1,"url":"https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"})
+02-01-2020 12:58:24,883 DEBUG (Recipe.java:70) - getName()
+02-01-2020 12:58:24,883 DEBUG (JasperPDF.java:66) - Appel de la méthode: downloadReport()
+02-01-2020 12:58:32,744 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 12:58:32,750 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":1,"name":"Jeanne\u0027s timpani","category":0,"description":"","ingredients":"4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper","person":4,"duration":18,"level":1,"url":"https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"})
+02-01-2020 12:58:32,970 DEBUG (Recipe.java:70) - getName()
+02-01-2020 12:58:32,970 DEBUG (JasperPDF.java:66) - Appel de la méthode: downloadReport()
+02-01-2020 12:58:58,980 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:59:06,303 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:59:12,713 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:59:24,087 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:59:26,998 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:59:28,123 DEBUG (JasperPDF.java:66) - Appel de la méthode: downloadReport()
+02-01-2020 12:59:28,161 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
+02-01-2020 12:59:37,708 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
