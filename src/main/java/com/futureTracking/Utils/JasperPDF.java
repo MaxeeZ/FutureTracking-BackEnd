@@ -13,12 +13,18 @@ import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.data.JsonDataSource;
+import org.apache.log4j.Logger;
 import static org.hibernate.internal.util.ConfigHelper.getResourceAsStream;
 import org.springframework.core.io.ByteArrayResource;
 
 public class JasperPDF {
 
+    static Logger logger = Logger.getLogger(JasperPDF.class);
+    
     public static void ExportPDF(String JsonObject) {
+        
+        logger.debug("Appel de la méthode: ExportPDF(" + JsonObject + ")");
+        
         try {
             try {
                 InputStream recipeReportStream;
@@ -55,11 +61,13 @@ public class JasperPDF {
     
     public static ByteArrayResource downloadReport() throws IOException {
         
+        logger.debug("Appel de la méthode: downloadReport()");
+        
         File file = new File(System.getProperty("java.io.tmpdir") + "/ReportRecipeJasperPDF");
         Path path = Paths.get(file.getAbsolutePath());
         
         ByteArrayResource resource = new ByteArrayResource(Files.readAllBytes(path));
-        
+
         return resource;
     }
     

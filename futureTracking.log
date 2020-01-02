@@ -377,3 +377,39 @@
 02-01-2020 10:54:59,456 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
 02-01-2020 10:59:44,957 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
 02-01-2020 11:01:00,777 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:38:15,932 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:38:18,131 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:38:31,351 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 12:38:34,886 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 12:38:37,818 DEBUG (Recipe.java:70) - getName()
+02-01-2020 12:43:11,129 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:43:11,578 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:43:19,447 DEBUG (RecipeController.java:50) - Appel de la méthode: showAllRecipes() via url: /getRecipes
+02-01-2020 12:43:22,741 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 12:43:27,133 DEBUG (Recipe.java:70) - getName()
+02-01-2020 12:43:28,473 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 12:43:28,631 DEBUG (Recipe.java:70) - getName()
+02-01-2020 12:45:17,812 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:45:26,792 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 12:45:26,837 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":1,"name":"Jeanne\u0027s timpani","category":0,"description":"","ingredients":"4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper","person":4,"duration":18,"level":1,"url":"https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"})
+02-01-2020 12:45:27,206 DEBUG (Recipe.java:70) - getName()
+02-01-2020 12:45:27,207 DEBUG (JasperPDF.java:63) - Appel de la méthode: downloadReport()
+02-01-2020 12:45:28,630 DEBUG (RecipeController.java:69) - Appel de la méthode: RecipeByIdExportToPDF(Integer idRecipe) via url: /getRecipes/1
+02-01-2020 12:45:28,638 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({"id":1,"name":"Jeanne\u0027s timpani","category":0,"description":"","ingredients":"4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper","person":4,"duration":18,"level":1,"url":"https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"})
+02-01-2020 12:45:28,788 DEBUG (Recipe.java:70) - getName()
+02-01-2020 12:45:28,788 DEBUG (JasperPDF.java:63) - Appel de la méthode: downloadReport()
+02-01-2020 12:45:38,603 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:45:55,443 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:48:50,290 INFO  (FutureTrackingApplication.java:15) - Démarrage de l'application Future Tracking BackEnd
+02-01-2020 12:48:51,615 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 12:48:51,666 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
