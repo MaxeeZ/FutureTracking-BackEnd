@@ -562,3 +562,27 @@
     "level": 1,
     "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
 })
+02-01-2020 15:10:07,178 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 15:10:07,268 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
+02-01-2020 15:13:22,076 DEBUG (JasperPDF.java:64) - Appel de la méthode: downloadReport()
+02-01-2020 15:13:22,116 DEBUG (JasperPDF.java:26) - Appel de la méthode: ExportPDF({
+    "id": 1,
+    "name": "Jeanne\u0027s timpani",
+    "category": 0,
+    "description": "",
+    "ingredients": "4 slices of smokeds salmon, 2 zucchini, 3 eggs, 10 cl thick fresh cream, 1 small garlic clove, 1 tablespoon olive oil, dill mint, salt, pepper",
+    "person": 4,
+    "duration": 18,
+    "level": 1,
+    "url": "https://assets.afcdn.com/recipe/20140921/15292_w800h600c1cx1224cy1224.jpg"
+})
