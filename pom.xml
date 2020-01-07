@@ -24,7 +24,7 @@
         
         <sonar.projectKey>dis.futureTracking</sonar.projectKey>
         <sonar.host.url>http://178.170.101.32:9000</sonar.host.url>
-        <sonar.login>76481c978fa48a86960b39d30d54cd9f9ac382a7</sonar.login>
+        <sonar.login>9c02601a7f64d149b31e922ee3e8c501e03cdbb6</sonar.login>
         
         <sonar.tests>src/test</sonar.tests>
         <sonar.junit.reportsPath>target/surefire-reports</sonar.junit.reportsPath>
